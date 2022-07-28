@@ -34,7 +34,7 @@ const contactSchema = new mongoose.Schema({
           required: true,
         },
       }],
-      userId: { type: mongoose.SchemaType.ObjectID, ref: usermodel }
+      userId: { type: mongoose.Schema.Types.ObjectId, ref: usermodel }
 })
 
 const contactModel = mongoose.model("contacts",contactSchema)
