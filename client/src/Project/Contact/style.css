@@ -1,0 +1,23 @@
+.contact{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.leftside{
+    width: 13%;
+    background-color: #CEF3FF;
+}
+.rightside{
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+}
+.rightside .righttop{
+    width: 100%;
+    height: 9%;
+    border-bottom: 2px solid #EAEAEA;
+}
+.rightside .main{
+    width: 100%;
+    height: 91%;
+}

@@ -1,0 +1,119 @@
+.left-img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: -45px;
+    top: -44px;
+    text-align: left;
+}
+.right-img {
+    text-align: right;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: -80px;
+    right: -26px;
+}
+.inputField span{
+    cursor: pointer;
+}
+.signup-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    z-index: -1;
+    margin: 100px;
+    background: #cef3ff57;
+    box-shadow: 0px 4px 22px #b2dfff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#dots {
+    width: 120px;
+}
+.left-dots {
+    /* margin: 330px 0 0 -203px; */
+    position: relative;
+    top: 170px;
+    left: -175px;
+}
+.right-dots {
+    /* margin: -330px 200px 0 0px; */
+    position: relative;
+    top: -160px;
+    right: -175px;
+}
+.inputField {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+.signup-btn {
+    background-color: #7D8CC4;
+    color: white;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+.myform {
+    width: 33%;
+}
+#viewicon{
+    display:none;
+}
+.link-btn {
+    text-decoration: none;
+    color: #7D8CC4;
+    outline: none;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.input-pwd {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-pwd input{
+    width: 100%;
+    height: 100%;
+    text-indent: 2px;
+    outline: none;
+}
+.wrapper span{
+    margin-left: -50px;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+/* sign up form only */
+.register-btn {
+    background-color: #7D8CC4;
+    color: white;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+.field{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+} 
+button{
+    cursor: pointer;
+}
+.box1{
+    width: 80%;
+}

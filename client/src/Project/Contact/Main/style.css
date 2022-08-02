@@ -1,0 +1,124 @@
+.contacts{
+    margin: 25px auto;
+    background-color: #FBFBFB;
+    height: 80%;
+    width: 96%;
+    padding-top: 10px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5px;
+    margin-bottom: 25px;
+}
+.row1 span{
+    box-shadow: 1px 1px 1px 2px rgb(188, 185, 185);
+    border-radius: 5px;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+.row1 span svg{
+   margin-right: 10px;
+}
+table{
+    width: 100%;
+}
+thead{
+    background-color: #B2DFFF;
+}
+thead tr th{
+    padding: 12px 5px;
+}
+  tbody tr td {
+    padding: 8px 5px;
+  }
+table tr:nth-child(even){
+    background: #E4F2FC;
+}
+thead tr th{
+    text-align: left;
+}
+table input{
+    margin-right: 10px;
+}
+.rowright span{
+    margin: 5px;
+}
+.contacts span {
+    cursor: pointer;
+}
+.row1-left svg{
+    margin-left: 10px;
+}
+.filepic{
+    background-color: #85c3ef;
+    padding: 2px 12px;
+    border-radius: 25px;
+}
+.filepic .material-icons{
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+.filepic1{
+    background-color: #85c3ef;
+    padding: 10px 12px;
+    border-radius: 25px;     
+}
+.deletesection .cancel{
+    color: white;
+    background-color: #2DA5FC;
+    padding: 7px 10px;
+    margin-right: 15px;
+}
+.Ok,.cancel {
+    cursor: pointer;
+}
+.deletesvg svg {
+    margin: 5px;
+}
+.pagenation{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.pagebody{
+    display: flex;
+    column-gap: 10px;
+}
+.blue{
+    color: #67b6ee;
+}
+.grey{
+    color: rgb(196, 195, 195);
+}
+.Tablesection{
+    height: 500px;
+}
+.Line{
+    margin-right: 10px;
+}
+.downarrow{
+    margin-left: 10px;
+}
+.displaytootip{
+    background: white;
+    color: #2DA5FC;
+    margin: -13px;
+    padding: 5px;
+    font-size: 18px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .displaytootip::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: white;
+    transform: translateX(150px) translateY(-10px) rotate(45deg);
+ }

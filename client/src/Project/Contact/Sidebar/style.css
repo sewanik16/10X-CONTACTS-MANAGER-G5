@@ -1,0 +1,38 @@
+.sidebar{
+    width: 13%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+.sidebar-top{
+    margin-left: 26px;
+}
+.sidebar-top h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:  #0884FF;
+}
+.sidebar-top svg{
+    margin-right: 10px;
+}
+
+.sidebar-top button{
+        padding:13px 15px;
+        background-color: #2DA5FC;
+        border-radius: 4px;
+        color: white;
+        border: none;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .sidebar-bottom{
+    margin: 20px;
+    }
+    .sidebar-bottom a{
+        text-decoration: none;
+    }
+
